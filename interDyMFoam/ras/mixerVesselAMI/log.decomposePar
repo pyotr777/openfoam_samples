@@ -1,0 +1,120 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1606+
+Exec   : decomposePar -force
+Date   : Oct 20 2016
+Time   : 06:57:59
+Host   : "79ba4d3dd43f"
+PID    : 1091
+Case   : /openfoam/interDyMFoam/ras/mixerVesselAMI
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Decomposing mesh region0
+
+Create mesh
+
+Calculating distribution of cells
+Selecting decompositionMethod scotch
+
+Finished decomposition in 2.13 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+Reading hexRef8 data : cellLevel
+Reading hexRef8 data : pointLevel
+Reading hexRef8 data : level0Edge
+Reading hexRef8 data : refinementHistory
+
+Processor 0
+    Number of cells = 149362
+    Number of faces shared with processor 1 = 2174
+    Number of faces shared with processor 2 = 1946
+    Number of faces shared with processor 3 = 2049
+    Number of faces shared with processor 4 = 1299
+    Number of faces shared with processor 5 = 1355
+    Number of processor patches = 5
+    Number of processor faces = 8823
+    Number of boundary faces = 28343
+
+Processor 1
+    Number of cells = 149821
+    Number of faces shared with processor 0 = 2174
+    Number of faces shared with processor 2 = 6909
+    Number of processor patches = 2
+    Number of processor faces = 9083
+    Number of boundary faces = 21060
+
+Processor 2
+    Number of cells = 148918
+    Number of faces shared with processor 0 = 1946
+    Number of faces shared with processor 1 = 6909
+    Number of processor patches = 2
+    Number of processor faces = 8855
+    Number of boundary faces = 20722
+
+Processor 3
+    Number of cells = 148596
+    Number of faces shared with processor 0 = 2049
+    Number of faces shared with processor 4 = 2408
+    Number of faces shared with processor 5 = 1994
+    Number of processor patches = 3
+    Number of processor faces = 6451
+    Number of boundary faces = 25758
+
+Processor 4
+    Number of cells = 148318
+    Number of faces shared with processor 0 = 1299
+    Number of faces shared with processor 3 = 2408
+    Number of faces shared with processor 5 = 3175
+    Number of processor patches = 3
+    Number of processor faces = 6882
+    Number of boundary faces = 24508
+
+Processor 5
+    Number of cells = 149958
+    Number of faces shared with processor 0 = 1355
+    Number of faces shared with processor 3 = 1994
+    Number of faces shared with processor 4 = 3175
+    Number of processor patches = 3
+    Number of processor faces = 6524
+    Number of boundary faces = 23267
+
+Number of processor faces = 23309
+Max number of cells = 149958 (0.533536% above average 149162)
+Max number of processor patches = 5 (66.6667% above average 3)
+Max number of faces between processors = 9083 (16.9033% above average 7769.67)
+
+Time = 0
+AMI: Creating addressing and weights between 41828 source faces and 41828 target faces
+AMI: Patch source sum(weights) min/max/average = 1, 1.58143, 1.00079
+AMI: Patch target sum(weights) min/max/average = 1, 1.29332, 1.00078
+
+Processor 0: field transfer
+Processor 1: field transfer
+Processor 2: field transfer
+Processor 3: field transfer
+Processor 4: field transfer
+Processor 5: field transfer
+
+End
+

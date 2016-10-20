@@ -1,0 +1,37 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1606+
+Exec   : topoSet
+Date   : Oct 20 2016
+Time   : 04:13:18
+Host   : "79ba4d3dd43f"
+PID    : 367
+Case   : /openfoam/ras/floatingObject
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Reading topoSetDict
+
+Time = 0
+    mesh not changed.
+Created cellSet c0
+    Applying source boxToCell
+    Adding cells with center within boxes 1((0.35 0.35 0.1) (0.65 0.55 0.6))
+    cellSet c0 now size 360
+Read set cellSet c0 with size 360
+    Inverting cellSet
+    cellSet c0 now size 11640
+End
+

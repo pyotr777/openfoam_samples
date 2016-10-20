@@ -1,0 +1,192 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1606+
+Exec   : surfaceFeatureExtract
+Date   : Oct 20 2016
+Time   : 06:47:02
+Host   : "79ba4d3dd43f"
+PID    : 1084
+Case   : /openfoam/interDyMFoam/ras/mixerVesselAMI
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading surfaceFeatureExtractDict
+
+Surface            : "vessel.stl"
+
+
+Feature line extraction is only valid on closed manifold surfaces.
+Statistics:
+Triangles    : 3594
+Vertices     : 1816
+Bounding Box : (-0.265 -0.265 -0.101753) (0.265 0.265 1.3)
+
+
+Constructing feature set from included angle 120
+Selecting edges purely based on geometric tests: no
+
+Initial feature set:
+    feature points : 0
+    feature edges  : 94
+    of which
+        region edges   : 36
+        external edges : 0
+        internal edges : 58
+
+
+Final feature set:
+    points : 94
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 94
+    edges  : 94
+    of which
+        external edges     : 0
+        internal edges     : 58
+        flat edges         : 0
+        open edges         : 36
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/openfoam/interDyMFoam/ras/mixerVesselAMI/constant/extendedFeatureEdgeMesh/vessel.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/openfoam/interDyMFoam/ras/mixerVesselAMI/constant/triSurface/vessel.eMesh"
+
+Surface            : "gasInlet.stl"
+
+
+Feature line extraction is only valid on closed manifold surfaces.
+Statistics:
+Triangles    : 36
+Vertices     : 37
+Bounding Box : (-0.1 -0.1 0) (0.1 0.1 0)
+
+
+Constructing feature set from included angle 120
+Selecting edges purely based on geometric tests: no
+
+Initial feature set:
+    feature points : 0
+    feature edges  : 36
+    of which
+        region edges   : 36
+        external edges : 0
+        internal edges : 0
+
+
+Final feature set:
+    points : 36
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 36
+    edges  : 36
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 36
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/openfoam/interDyMFoam/ras/mixerVesselAMI/constant/extendedFeatureEdgeMesh/gasInlet.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/openfoam/interDyMFoam/ras/mixerVesselAMI/constant/triSurface/gasInlet.eMesh"
+
+Surface            : "stirrer.stl"
+
+
+Feature line extraction is only valid on closed manifold surfaces.
+Statistics:
+Triangles    : 1196
+Vertices     : 673
+Bounding Box : (-0.175 -0.175 0.05) (0.175 0.175 0.76)
+
+
+Constructing feature set from included angle 120
+Selecting edges purely based on geometric tests: no
+
+Initial feature set:
+    feature points : 40
+    feature edges  : 332
+    of which
+        region edges   : 116
+        external edges : 216
+        internal edges : 0
+
+
+Final feature set:
+    points : 332
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 40
+        non-feature        : 292
+    edges  : 332
+    of which
+        external edges     : 216
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 116
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/openfoam/interDyMFoam/ras/mixerVesselAMI/constant/extendedFeatureEdgeMesh/stirrer.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/openfoam/interDyMFoam/ras/mixerVesselAMI/constant/triSurface/stirrer.eMesh"
+
+Surface            : "outlet.stl"
+
+
+Feature line extraction is only valid on closed manifold surfaces.
+Statistics:
+Triangles    : 34
+Vertices     : 36
+Bounding Box : (-0.13 -0.13 1.3) (-0.07 -0.07 1.3)
+
+
+Constructing feature set from included angle 120
+Selecting edges purely based on geometric tests: no
+
+Initial feature set:
+    feature points : 0
+    feature edges  : 36
+    of which
+        region edges   : 36
+        external edges : 0
+        internal edges : 0
+
+
+Final feature set:
+    points : 36
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 36
+    edges  : 36
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 36
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/openfoam/interDyMFoam/ras/mixerVesselAMI/constant/extendedFeatureEdgeMesh/outlet.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/openfoam/interDyMFoam/ras/mixerVesselAMI/constant/triSurface/outlet.eMesh"
+
+ExecutionTime = 0.02 s  ClockTime = 0 s
+
+End
+

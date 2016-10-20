@@ -1,0 +1,93 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1606+
+Exec   : blockMesh
+Date   : Oct 19 2016
+Time   : 08:30:16
+Host   : "79ba4d3dd43f"
+PID    : 862
+Case   : /openfoam/pimpleFoam/elipsekkLOmega
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from
+    "/openfoam/pimpleFoam/elipsekkLOmega/system/blockMeshDict"
+Creating curved edges
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 5
+		Number of boundary faces : 20
+		Number of defined boundary faces : 20
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 0.1
+    Block 0 cell size :
+        i : 0.000376206 .. 0.0063955
+        j : 0.000560995 .. 0.000560995
+        k : 0.05 .. 0.05
+
+    Block 1 cell size :
+        i : 0.000376205 .. 0.00639549
+        j : 0.000560995 .. 0.000560995
+        k : 0.05 .. 0.05
+
+    Block 2 cell size :
+        i : 0.00656468 .. 0.019694
+        j : 0.00224398 .. 0.00224398
+        k : 0.05 .. 0.05
+
+    Block 3 cell size :
+        i : 0.00784651 .. 0.0235395
+        j : 0.0109435 .. 0.021887
+        k : 0.05 .. 0.05
+
+    Block 4 cell size :
+        i : 0.00224398 .. 0.00224398
+        j : 0.00690099 .. 0.013802
+        k : 0.05 .. 0.05
+
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 0) (0.5 0.3 0.05)
+  nPoints: 25492
+  nCells: 12500
+  nFaces: 50245
+  nInternalFaces: 24755
+----------------
+Patches
+----------------
+  patch 0 (start: 24755 size: 80) name: left
+  patch 1 (start: 24835 size: 80) name: outlet
+  patch 2 (start: 24915 size: 95) name: down
+  patch 3 (start: 25010 size: 95) name: up
+  patch 4 (start: 25105 size: 140) name: hole
+  patch 5 (start: 25245 size: 25000) name: frontAndBack
+
+End
+

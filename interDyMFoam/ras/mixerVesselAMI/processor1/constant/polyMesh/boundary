@@ -1,0 +1,166 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      binary;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+12
+(
+    vessel
+    {
+        type            wall;
+        inGroups        
+2
+(
+meshedWalls
+wall
+)
+;
+        nFaces          0;
+        startFace       434644;
+    }
+    gasInlet
+    {
+        type            patch;
+        nFaces          0;
+        startFace       434644;
+    }
+    outlet
+    {
+        type            patch;
+        nFaces          0;
+        startFace       434644;
+    }
+    shaftRotating
+    {
+        type            wall;
+        inGroups        
+2
+(
+meshedWalls
+wall
+)
+;
+        nFaces          978;
+        startFace       434644;
+    }
+    shaft
+    {
+        type            wall;
+        inGroups        
+2
+(
+meshedWalls
+wall
+)
+;
+        nFaces          0;
+        startFace       435622;
+    }
+    sparger
+    {
+        type            wall;
+        inGroups        
+2
+(
+meshedWalls
+wall
+)
+;
+        nFaces          0;
+        startFace       435622;
+    }
+    stirrer
+    {
+        type            wall;
+        inGroups        
+2
+(
+meshedWalls
+wall
+)
+;
+        nFaces          2909;
+        startFace       435622;
+    }
+    baffles
+    {
+        type            wall;
+        inGroups        
+2
+(
+meshedWalls
+wall
+)
+;
+        nFaces          0;
+        startFace       438531;
+    }
+    AMI1
+    {
+        type            cyclicAMI;
+        inGroups        
+2
+(
+cyclicAMI
+rotating
+)
+;
+        nFaces          17173;
+        startFace       438531;
+        matchTolerance  0.0001;
+        transform       noOrdering;
+        neighbourPatch  AMI2;
+    }
+    AMI2
+    {
+        type            cyclicAMI;
+        inGroups        
+2
+(
+cyclicAMI
+rotating
+)
+;
+        nFaces          0;
+        startFace       455704;
+        matchTolerance  0.0001;
+        transform       noOrdering;
+        neighbourPatch  AMI1;
+    }
+    procBoundary1to0
+    {
+        type            processor;
+        inGroups        1(processor);
+        nFaces          2174;
+        startFace       455704;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        1;
+        neighbProcNo    0;
+    }
+    procBoundary1to2
+    {
+        type            processor;
+        inGroups        1(processor);
+        nFaces          6909;
+        startFace       457878;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        1;
+        neighbProcNo    2;
+    }
+)
+
+// ************************************************************************* //

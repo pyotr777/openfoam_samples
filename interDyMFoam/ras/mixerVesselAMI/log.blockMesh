@@ -1,0 +1,70 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1606+
+Exec   : blockMesh
+Date   : Oct 20 2016
+Time   : 06:47:01
+Host   : "79ba4d3dd43f"
+PID    : 1083
+Case   : /openfoam/interDyMFoam/ras/mixerVesselAMI
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from
+    "/openfoam/interDyMFoam/ras/mixerVesselAMI/system/blockMeshDict"
+Creating curved edges
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.012 .. 0.012
+        j : 0.012 .. 0.012
+        k : 0.0155 .. 0.0155
+
+
+There are no merge patch pairs edges
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-0.3 -0.3 -0.15) (0.3 0.3 1.4)
+  nPoints: 262701
+  nCells: 250000
+  nFaces: 762500
+  nInternalFaces: 737500
+----------------
+Patches
+----------------
+  patch 0 (start: 737500 size: 25000) name: allBoundary
+
+End
+

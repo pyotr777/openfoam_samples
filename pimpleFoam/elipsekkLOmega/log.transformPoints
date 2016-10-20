@@ -1,0 +1,28 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1606+
+Exec   : transformPoints -scale (1.6666 1 1)
+Date   : Oct 19 2016
+Time   : 08:30:16
+Host   : "79ba4d3dd43f"
+PID    : 863
+Case   : /openfoam/pimpleFoam/elipsekkLOmega
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Scaling points by (1.6666 1 1)
+Writing points into directory "/openfoam/pimpleFoam/elipsekkLOmega/constant/polyMesh"
+
+
+End
+

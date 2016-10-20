@@ -1,0 +1,43 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "0.64/uniform/functionObjects";
+    object      functionObjectProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+fieldAverage1
+{
+    U.particles
+    {
+        totalIter       3201;
+        totalTime       0.6401999999999621;
+    }
+    U.air
+    {
+        totalIter       3201;
+        totalTime       0.6401999999999621;
+    }
+    alpha.particles
+    {
+        totalIter       3201;
+        totalTime       0.6401999999999621;
+    }
+    p
+    {
+        totalIter       3201;
+        totalTime       0.6401999999999621;
+    }
+}
+
+
+// ************************************************************************* //

@@ -1,0 +1,61 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1606+
+Exec   : changeDictionary -instance system -dict system/changeDictionaryDict.Y
+Date   : Oct 19 2016
+Time   : 08:30:17
+Host   : "79ba4d3dd43f"
+PID    : 868
+Case   : /openfoam/pimpleFoam/elipsekkLOmega
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Read dictionary changeDictionaryDict.Y with replacements for dictionaries 1(mirrorMeshDict)
+Reading polyMesh/boundary file to extract patch names
+Loaded dictionary boundary with entries 
+5
+(
+outlet
+down
+up
+hole
+frontAndBack
+)
+
+Extracted patch groups:
+    group empty with patches 1(frontAndBack)
+    group symmetry with patches 
+2
+(
+down
+up
+)
+
+    group wall with patches 1(hole)
+Replacing entries in dictionary mirrorMeshDict
+Loading dictionary mirrorMeshDict
+Loaded dictionary mirrorMeshDict with entries 
+3
+(
+planeType
+pointAndNormalDict
+planeTolerance
+)
+
+Merging entries from 1(pointAndNormalDict)
+Writing modified fieldDict mirrorMeshDict
+
+End
+

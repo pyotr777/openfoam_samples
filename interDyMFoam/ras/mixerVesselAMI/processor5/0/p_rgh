@@ -1,0 +1,117 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      binary;
+    class       volScalarField;
+    location    "0";
+    object      p_rgh;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [1 -1 -2 0 0 0 0];
+
+internalField   uniform 125000;
+
+boundaryField
+{
+    vessel
+    {
+        type            fixedFluxPressure;
+        gradient        uniform 0;
+        value           uniform 125000;
+    }
+    gasInlet
+    {
+        type            fixedFluxPressure;
+        gradient        nonuniform 
+0
+;
+        value           nonuniform 
+0
+;
+    }
+    outlet
+    {
+        type            fixedValue;
+        value           uniform 125000;
+    }
+    shaftRotating
+    {
+        type            fixedFluxPressure;
+        gradient        nonuniform 
+0
+;
+        value           nonuniform 
+0
+;
+    }
+    shaft
+    {
+        type            fixedFluxPressure;
+        gradient        uniform 0;
+        value           uniform 125000;
+    }
+    sparger
+    {
+        type            fixedFluxPressure;
+        gradient        nonuniform 
+0
+;
+        value           nonuniform 
+0
+;
+    }
+    stirrer
+    {
+        type            fixedFluxPressure;
+        gradient        nonuniform 
+0
+;
+        value           nonuniform 
+0
+;
+    }
+    baffles
+    {
+        type            fixedFluxPressure;
+        gradient        uniform 0;
+        value           uniform 125000;
+    }
+    AMI1
+    {
+        type            cyclicAMI;
+        value           nonuniform 
+0
+;
+    }
+    AMI2
+    {
+        type            cyclicAMI;
+        value           uniform 125000;
+    }
+    procBoundary5to0
+    {
+        type            processor;
+        value           uniform 125000;
+    }
+    procBoundary5to3
+    {
+        type            processor;
+        value           uniform 125000;
+    }
+    procBoundary5to4
+    {
+        type            processor;
+        value           uniform 125000;
+    }
+}
+
+
+// ************************************************************************* //

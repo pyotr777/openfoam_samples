@@ -1,0 +1,32 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1606+
+Exec   : mirrorMesh -overwrite
+Date   : Oct 19 2016
+Time   : 08:30:17
+Host   : "79ba4d3dd43f"
+PID    : 869
+Case   : /openfoam/pimpleFoam/elipsekkLOmega
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Mirroring points. Old points: 50822 New points: 101260
+Mirroring faces. Old faces: 100410 New faces: 200630
+Mirroring patches. Old patches: 5 New patches: 4
+Mirroring cells.  Old cells: 25000 New cells: 50000
+Mirroring cell shapes.
+
+Creating new mesh
+Writing mirrored mesh
+End
+

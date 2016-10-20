@@ -1,0 +1,144 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      binary;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+10
+(
+    vessel
+    {
+        type            wall;
+        inGroups        
+2
+(
+meshedWalls
+wall
+)
+;
+        nFaces          45999;
+        startFace       2607938;
+    }
+    gasInlet
+    {
+        type            patch;
+        nFaces          832;
+        startFace       2653937;
+    }
+    outlet
+    {
+        type            patch;
+        nFaces          109;
+        startFace       2654769;
+    }
+    shaftRotating
+    {
+        type            wall;
+        inGroups        
+2
+(
+meshedWalls
+wall
+)
+;
+        nFaces          2228;
+        startFace       2654878;
+    }
+    shaft
+    {
+        type            wall;
+        inGroups        
+2
+(
+meshedWalls
+wall
+)
+;
+        nFaces          648;
+        startFace       2657106;
+    }
+    sparger
+    {
+        type            wall;
+        inGroups        
+2
+(
+meshedWalls
+wall
+)
+;
+        nFaces          1460;
+        startFace       2657754;
+    }
+    stirrer
+    {
+        type            wall;
+        inGroups        
+2
+(
+meshedWalls
+wall
+)
+;
+        nFaces          6014;
+        startFace       2659214;
+    }
+    baffles
+    {
+        type            wall;
+        inGroups        
+2
+(
+meshedWalls
+wall
+)
+;
+        nFaces          2712;
+        startFace       2665228;
+    }
+    AMI1
+    {
+        type            cyclicAMI;
+        inGroups        
+2
+(
+cyclicAMI
+rotating
+)
+;
+        nFaces          41828;
+        startFace       2667940;
+        matchTolerance  0.0001;
+        transform       noOrdering;
+        neighbourPatch  AMI2;
+    }
+    AMI2
+    {
+        type            cyclicAMI;
+        inGroups        
+2
+(
+cyclicAMI
+rotating
+)
+;
+        nFaces          41828;
+        startFace       2709768;
+        matchTolerance  0.0001;
+        transform       noOrdering;
+        neighbourPatch  AMI1;
+    }
+)
+
+// ************************************************************************* //

@@ -1,0 +1,71 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1606+
+Exec   : blockMesh
+Date   : Oct 19 2016
+Time   : 01:29:12
+Host   : "79ba4d3dd43f"
+PID    : 275
+Case   : /openfoam/capillaryRise
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from
+    "/openfoam/capillaryRise/system/blockMeshDict"
+Creating curved edges
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 0.001
+    Block 0 cell size :
+        i : 5e-05 .. 5e-05
+        j : 5e-05 .. 5e-05
+        k : 0.001 .. 0.001
+
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 0) (0.001 0.02 0.001)
+  nPoints: 16842
+  nCells: 8000
+  nFaces: 32420
+  nInternalFaces: 15580
+----------------
+Patches
+----------------
+  patch 0 (start: 15580 size: 20) name: inlet
+  patch 1 (start: 15600 size: 20) name: atmosphere
+  patch 2 (start: 15620 size: 800) name: walls
+  patch 3 (start: 16420 size: 16000) name: frontAndBack
+
+End
+

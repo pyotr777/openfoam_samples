@@ -1,0 +1,31 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1606+
+Exec   : mergeOrSplitBaffles -split -overwrite
+Date   : Oct 20 2016
+Time   : 06:57:51
+Host   : "79ba4d3dd43f"
+PID    : 1087
+Case   : /openfoam/interDyMFoam/ras/mixerVesselAMI
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Topologically splitting duplicate surfaces, i.e. duplicating points internal to duplicate surfaces.
+
+Writing mesh to time 0
+Writing 84906 duplicated points to pointSet "/openfoam/interDyMFoam/ras/mixerVesselAMI/constant/polyMesh/sets/duplicatedPoints"
+
+End
+
