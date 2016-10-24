@@ -1,0 +1,144 @@
+Env_base: K-1.2.0-20-1
+/work/job_icoFoam_cavity.5451471/cavity
+Before start
+total 524
+drwxrwxrwx 2 a03106 ra000007 4096 Oct 24 10:28 0
+drwxrwxrwx 3 a03106 ra000007 4096 Oct 24 10:28 constant
+-rw-r--r-- 1 a03106 ra000007 1497 Oct 24 10:27 run.sh
+drwxrwxrwx 2 a03106 ra000007 4096 Oct 24 10:28 system
+icoFoam
+Running blockMesh on /work/job_icoFoam_cavity.5451471/cavity
+Running setFields on /work/job_icoFoam_cavity.5451471/cavity
+Running icoFoam on /work/job_icoFoam_cavity.5451471/cavity
+/work/job_icoFoam_cavity.5451471/cavity/..
+total 536
+-rw-r--r--  1 a03106 ra000007 2865 May 22  2015 RunFunctions
+drwxrwxrwx  2 a03106 ra000007 4096 Oct 24 10:28 bin
+drwxrwxrwx 15 a03106 ra000007 4096 Oct 24 10:30 cavity
+drwxrwxrwx  2 a03106 ra000007 4096 Oct 24 10:28 etc
+drwxrwxrwx  2 a03106 ra000007 8192 Oct 24 10:28 lib
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : ../bin/foamToVTK
+Date   : Oct 24 2016
+Time   : 10:30:07
+Host   : "f01-009"
+PID    : 20765
+Case   : /work/job_icoFoam_cavity.5451471/cavity
+nProcs : 1
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Time: 0
+    volScalarFields            : p
+    volVectorFields            : U
+
+    Internal  : "/work/job_icoFoam_cavity.5451471/cavity/VTK/cavity_0.vtk"
+    Original cells:400 points:882   Additional cells:0  additional points:0
+
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/movingWall/movingWall_0.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/fixedWalls/fixedWalls_0.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/frontAndBack/frontAndBack_0.vtk"
+Time: 0.05
+    volScalarFields            : p
+    volVectorFields            : U
+
+    Internal  : "/work/job_icoFoam_cavity.5451471/cavity/VTK/cavity_50.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/movingWall/movingWall_50.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/fixedWalls/fixedWalls_50.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/frontAndBack/frontAndBack_50.vtk"
+    surfScalarFields  : phi
+Time: 0.1
+    volScalarFields            : p
+    volVectorFields            : U
+
+    Internal  : "/work/job_icoFoam_cavity.5451471/cavity/VTK/cavity_100.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/movingWall/movingWall_100.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/fixedWalls/fixedWalls_100.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/frontAndBack/frontAndBack_100.vtk"
+    surfScalarFields  : phi
+Time: 0.15
+    volScalarFields            : p
+    volVectorFields            : U
+
+    Internal  : "/work/job_icoFoam_cavity.5451471/cavity/VTK/cavity_150.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/movingWall/movingWall_150.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/fixedWalls/fixedWalls_150.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/frontAndBack/frontAndBack_150.vtk"
+    surfScalarFields  : phi
+Time: 0.2
+    volScalarFields            : p
+    volVectorFields            : U
+
+    Internal  : "/work/job_icoFoam_cavity.5451471/cavity/VTK/cavity_200.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/movingWall/movingWall_200.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/fixedWalls/fixedWalls_200.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/frontAndBack/frontAndBack_200.vtk"
+    surfScalarFields  : phi
+Time: 0.25
+    volScalarFields            : p
+    volVectorFields            : U
+
+    Internal  : "/work/job_icoFoam_cavity.5451471/cavity/VTK/cavity_250.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/movingWall/movingWall_250.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/fixedWalls/fixedWalls_250.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/frontAndBack/frontAndBack_250.vtk"
+    surfScalarFields  : phi
+Time: 0.3
+    volScalarFields            : p
+    volVectorFields            : U
+
+    Internal  : "/work/job_icoFoam_cavity.5451471/cavity/VTK/cavity_300.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/movingWall/movingWall_300.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/fixedWalls/fixedWalls_300.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/frontAndBack/frontAndBack_300.vtk"
+    surfScalarFields  : phi
+Time: 0.35
+    volScalarFields            : p
+    volVectorFields            : U
+
+    Internal  : "/work/job_icoFoam_cavity.5451471/cavity/VTK/cavity_350.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/movingWall/movingWall_350.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/fixedWalls/fixedWalls_350.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/frontAndBack/frontAndBack_350.vtk"
+    surfScalarFields  : phi
+Time: 0.4
+    volScalarFields            : p
+    volVectorFields            : U
+
+    Internal  : "/work/job_icoFoam_cavity.5451471/cavity/VTK/cavity_400.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/movingWall/movingWall_400.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/fixedWalls/fixedWalls_400.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/frontAndBack/frontAndBack_400.vtk"
+    surfScalarFields  : phi
+Time: 0.45
+    volScalarFields            : p
+    volVectorFields            : U
+
+    Internal  : "/work/job_icoFoam_cavity.5451471/cavity/VTK/cavity_450.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/movingWall/movingWall_450.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/fixedWalls/fixedWalls_450.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/frontAndBack/frontAndBack_450.vtk"
+    surfScalarFields  : phi
+Time: 0.5
+    volScalarFields            : p
+    volVectorFields            : U
+
+    Internal  : "/work/job_icoFoam_cavity.5451471/cavity/VTK/cavity_500.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/movingWall/movingWall_500.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/fixedWalls/fixedWalls_500.vtk"
+    Patch     : "/work/job_icoFoam_cavity.5451471/cavity/VTK/frontAndBack/frontAndBack_500.vtk"
+    surfScalarFields  : phi
+End
+

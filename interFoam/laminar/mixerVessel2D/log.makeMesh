@@ -1,19 +1,18 @@
 /*---------------------------------------------------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  v1606+                                |
-|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
-Build  : v1606+
+Build  : 2.4.0-dcea1e13ff76
 Exec   : blockMesh
-Date   : Oct 19 2016
-Time   : 02:54:29
-Host   : "79ba4d3dd43f"
-PID    : 483
-Case   : /openfoam/mixerVessel2D
+Date   : Oct 24 2016
+Time   : 15:36:50
+Host   : "g05-012"
+PID    : 21378
+Case   : /work/job.5451954/mixerVessel2D
 nProcs : 1
-sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster
 allowSystemOperations : Allowing user-supplied system call operations
 
@@ -21,7 +20,7 @@ allowSystemOperations : Allowing user-supplied system call operations
 Create time
 
 Creating block mesh from
-    "/openfoam/mixerVessel2D/system/blockMeshDict"
+    "/work/job.5451954/mixerVessel2D/constant/polyMesh/blockMeshDict"
 Creating curved edges
 Creating topology blocks
 Creating topology patches
@@ -47,8 +46,6 @@ Creating block offsets
 Creating merge list ..
 
 Creating polyMesh from blockMesh
-Creating patches
-Creating cells
 Creating points with scale 0.1
     Block 0 cell size :
         i : 0.00130876 .. 0.00130876
@@ -210,6 +207,8 @@ Creating points with scale 0.1
         j : 0.0025 .. 0.0025
         k : 0.01 .. 0.01
 
+Creating cells
+Creating patches
 
 There are no merge patch pairs edges
 
@@ -240,19 +239,18 @@ End
 /*---------------------------------------------------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  v1606+                                |
-|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
-Build  : v1606+
+Build  : 2.4.0-dcea1e13ff76
 Exec   : topoSet
-Date   : Oct 19 2016
-Time   : 02:54:29
-Host   : "79ba4d3dd43f"
-PID    : 484
-Case   : /openfoam/mixerVessel2D
+Date   : Oct 24 2016
+Time   : 15:36:53
+Host   : "g05-012"
+PID    : 21379
+Case   : /work/job.5451954/mixerVessel2D
 nProcs : 1
-sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster
 allowSystemOperations : Allowing user-supplied system call operations
 
@@ -270,24 +268,24 @@ Created cellSet rotor
     Adding all cells of cellZone rotor ...
     Found matching zone rotor with 1536 cells.
     cellSet rotor now size 1536
+
 End
 
 /*---------------------------------------------------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  v1606+                                |
-|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
-Build  : v1606+
+Build  : 2.4.0-dcea1e13ff76
 Exec   : setsToZones -noFlipMap
-Date   : Oct 19 2016
-Time   : 02:54:29
-Host   : "79ba4d3dd43f"
-PID    : 485
-Case   : /openfoam/mixerVessel2D
+Date   : Oct 24 2016
+Time   : 15:36:59
+Host   : "g05-012"
+PID    : 21380
+Case   : /work/job.5451954/mixerVessel2D
 nProcs : 1
-sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster
 allowSystemOperations : Allowing user-supplied system call operations
 
@@ -301,5 +299,6 @@ Found    : 1(rotor)
 
 Overwriting contents of existing cellZone 0 with that of set rotor.
 Writing mesh.
+
 End
 

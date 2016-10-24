@@ -18,7 +18,7 @@
 #PJM --stgin "/home/ra000007/a03106/OpenFOAM/OpenFOAM-2.4.0/etc/controlDict ./etc/"
 #PJM --stgin "/home/ra000007/a03106/OpenFOAM/OpenFOAM-2.4.0/etc/cellModels ./etc/"
 #PJM --stgin-dir "mixerVessel2D mixerVessel2D recursive=3"
-#PJM --stgout-dir "mixerVessel2D out recursive=3"
+#PJM --stgout-dir "mixerVessel2D mixerVessel2D recursive=3"
 #
 . /work/system/Env_base
 #
@@ -43,5 +43,6 @@ runApplication $application
 echo "$(pwd)/.."
 ls -l ..
 # Convert to VTK
-../bin/foamToVTK
+../bin/foamToVTK -ascii
+
 

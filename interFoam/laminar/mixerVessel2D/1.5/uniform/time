@@ -1,8 +1,8 @@
 /*--------------------------------*- C++ -*----------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  v1606+                                |
-|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -19,11 +19,11 @@ value           1.5;
 
 name            "1.5";
 
-index           399;
+index           404;
 
-deltaT          0.0053267;
+deltaT          0.00555556;
 
-deltaT0         0.0053267;
+deltaT0         0.00555556;
 
 
 // ************************************************************************* //

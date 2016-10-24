@@ -1,19 +1,18 @@
 /*---------------------------------------------------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  v1606+                                |
-|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
-Build  : v1606+
+Build  : 2.4.0-dcea1e13ff76
 Exec   : setFields
-Date   : Oct 19 2016
-Time   : 02:54:30
-Host   : "79ba4d3dd43f"
-PID    : 487
-Case   : /openfoam/mixerVessel2D
+Date   : Oct 24 2016
+Time   : 15:37:02
+Host   : "g05-012"
+PID    : 21382
+Case   : /work/job.5451954/mixerVessel2D
 nProcs : 1
-sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster
 allowSystemOperations : Allowing user-supplied system call operations
 
