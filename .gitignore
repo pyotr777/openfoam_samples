@@ -1,3 +1,6 @@
 .*
 !.gitignore
+*.mp4
+*.png
+case.foam
 ppWall
