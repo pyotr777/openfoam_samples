@@ -28,7 +28,7 @@ define(backQuad, ($1b $4b $3b $2b))
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-convertToMeters 0.1;
+convertToMeters 0.5;
 
 // Hub radius
 define(r, 0.2)
