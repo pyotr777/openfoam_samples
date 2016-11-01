@@ -1,0 +1,133 @@
++ . /work/system/Env_base
+++ GMVERSION=1.2.0-20
+++ export Env_base=K-1.2.0-20-1
+++ Env_base=K-1.2.0-20-1
++++ /bin/uname -m
+++ '[' s64fx = s64fx ']'
+++ export MPI_HOME=/opt/FJSVtclang/GM-1.2.0-20
+++ MPI_HOME=/opt/FJSVtclang/GM-1.2.0-20
+++ export TOFU_HOME=/opt/FJSVpxtof/sparc64fx
+++ TOFU_HOME=/opt/FJSVpxtof/sparc64fx
+++ export PATH=/opt/FJSVtclang/GM-1.2.0-20/bin:/usr/local/bin:/bin:/usr/bin:/opt/FJSVxosmmm/sbin
+++ PATH=/opt/FJSVtclang/GM-1.2.0-20/bin:/usr/local/bin:/bin:/usr/bin:/opt/FJSVxosmmm/sbin
+++ export LD_LIBRARY_PATH=/opt/FJSVpnavi/sparc64fx/lib64
+++ LD_LIBRARY_PATH=/opt/FJSVpnavi/sparc64fx/lib64
+++ export LD_LIBRARY_PATH=/opt/FJSVtclang/GM-1.2.0-20/lib64:/opt/FJSVpnavi/sparc64fx/lib64
+++ LD_LIBRARY_PATH=/opt/FJSVtclang/GM-1.2.0-20/lib64:/opt/FJSVpnavi/sparc64fx/lib64
+++ export LD_LIBRARY_PATH=/opt/FJSVpxtof/sparc64fx/lib64:/opt/FJSVtclang/GM-1.2.0-20/lib64:/opt/FJSVpnavi/sparc64fx/lib64
+++ LD_LIBRARY_PATH=/opt/FJSVpxtof/sparc64fx/lib64:/opt/FJSVtclang/GM-1.2.0-20/lib64:/opt/FJSVpnavi/sparc64fx/lib64
+++ export LD_LIBRARY_PATH=/opt/FJSVpxtof/sparc64fx/lib64:/opt/FJSVtclang/GM-1.2.0-20/lib64:/opt/FJSVpnavi/sparc64fx/lib64:/opt/FJSVXosSclib/lib64
+++ LD_LIBRARY_PATH=/opt/FJSVpxtof/sparc64fx/lib64:/opt/FJSVtclang/GM-1.2.0-20/lib64:/opt/FJSVpnavi/sparc64fx/lib64:/opt/FJSVXosSclib/lib64
+++ export TMPDIR=./
+++ TMPDIR=./
+++ CPATH=/opt/FJSVtclang/check
+++ KTOOLBIN=/opt/FJSVktool/bin
+++ export PATH=/opt/FJSVktool/bin:/opt/FJSVtclang/check:/opt/FJSVtclang/GM-1.2.0-20/bin:/usr/local/bin:/bin:/usr/bin:/opt/FJSVxosmmm/sbin
+++ PATH=/opt/FJSVktool/bin:/opt/FJSVtclang/check:/opt/FJSVtclang/GM-1.2.0-20/bin:/usr/local/bin:/bin:/usr/bin:/opt/FJSVxosmmm/sbin
+++ echo Env_base: K-1.2.0-20-1
++++ echo /opt/FJSVktool/bin:/opt/FJSVtclang/check:/opt/FJSVtclang/GM-1.2.0-20/bin:/usr/local/bin:/bin:/usr/bin:/opt/FJSVxosmmm/sbin
++++ undup
++++ awk -F: '
+{
+	lang=0
+	delimiter=""
+	for(i=1;i<=NF;i++){
+		flag[i]=1
+		if(match($i,"/opt/FJSVtclang/GM-1.2.0-")!=0){
+			if(lang==0){
+				lang=1
+			}else{
+				flag[i]=0
+			}
+		}else{
+			for(j=1;j<i;j++){
+				if($j==$i){
+					flag[i] = 0
+					break;
+				}
+			}
+		}
+		if(flag[i]!=0){
+			printf("%s%s",delimiter,$i);
+			delimiter=":"
+		}
+	}
+}'
+++ PATH=/opt/FJSVktool/bin:/opt/FJSVtclang/check:/opt/FJSVtclang/GM-1.2.0-20/bin:/usr/local/bin:/bin:/usr/bin:/opt/FJSVxosmmm/sbin
++++ echo /opt/FJSVpxtof/sparc64fx/lib64:/opt/FJSVtclang/GM-1.2.0-20/lib64:/opt/FJSVpnavi/sparc64fx/lib64:/opt/FJSVXosSclib/lib64
++++ undup
++++ awk -F: '
+{
+	lang=0
+	delimiter=""
+	for(i=1;i<=NF;i++){
+		flag[i]=1
+		if(match($i,"/opt/FJSVtclang/GM-1.2.0-")!=0){
+			if(lang==0){
+				lang=1
+			}else{
+				flag[i]=0
+			}
+		}else{
+			for(j=1;j<i;j++){
+				if($j==$i){
+					flag[i] = 0
+					break;
+				}
+			}
+		}
+		if(flag[i]!=0){
+			printf("%s%s",delimiter,$i);
+			delimiter=":"
+		}
+	}
+}'
+++ LD_LIBRARY_PATH=/opt/FJSVpxtof/sparc64fx/lib64:/opt/FJSVtclang/GM-1.2.0-20/lib64:/opt/FJSVpnavi/sparc64fx/lib64:/opt/FJSVXosSclib/lib64
+++ unset undup
++ export LD_LIBRARY_PATH=../lib:/opt/FJSVpxtof/sparc64fx/lib64:/opt/FJSVtclang/GM-1.2.0-20/lib64:/opt/FJSVpnavi/sparc64fx/lib64:/opt/FJSVXosSclib/lib64
++ LD_LIBRARY_PATH=../lib:/opt/FJSVpxtof/sparc64fx/lib64:/opt/FJSVtclang/GM-1.2.0-20/lib64:/opt/FJSVpnavi/sparc64fx/lib64:/opt/FJSVXosSclib/lib64
++ export PATH=../bin:/opt/FJSVktool/bin:/opt/FJSVtclang/check:/opt/FJSVtclang/GM-1.2.0-20/bin:/usr/local/bin:/bin:/usr/bin:/opt/FJSVxosmmm/sbin
++ PATH=../bin:/opt/FJSVktool/bin:/opt/FJSVtclang/check:/opt/FJSVtclang/GM-1.2.0-20/bin:/usr/local/bin:/bin:/usr/bin:/opt/FJSVxosmmm/sbin
++ export WM_PROJECT_SITE=../etc
++ WM_PROJECT_SITE=../etc
++ cd mixerVessel2D
++ . ../RunFunctions
+++ getApplication
+++ sed -ne 's/^ *application\s*\([a-zA-Z]*\)\s*;.*$/\1/p' system/controlDict
++ echo interFoam
+++ getApplication
+++ sed -ne 's/^ *application\s*\([a-zA-Z]*\)\s*;.*$/\1/p' system/controlDict
++ application=interFoam
++ runApplication ./makeMesh
++ APP_RUN=./makeMesh
++ APP_NAME=makeMesh
++ shift
++ '[' -f log.makeMesh ']'
++ echo 'Running ./makeMesh on /work/job-write0.05s.5459488/mixerVessel2D'
++ ./makeMesh
++ cp 0/alpha.water.org 0/alpha.water
++ runApplication setFields
++ APP_RUN=setFields
++ APP_NAME=setFields
++ shift
++ '[' -f log.setFields ']'
++ echo 'Running setFields on /work/job-write0.05s.5459488/mixerVessel2D'
++ setFields
++ runApplication ./checkMesh
++ APP_RUN=./checkMesh
++ APP_NAME=checkMesh
++ shift
++ '[' -f log.checkMesh ']'
++ echo 'Running ./checkMesh on /work/job-write0.05s.5459488/mixerVessel2D'
++ ./checkMesh
++ runApplication interFoam
++ APP_RUN=interFoam
++ APP_NAME=interFoam
++ shift
++ '[' -f log.interFoam ']'
++ echo 'Running interFoam on /work/job-write0.05s.5459488/mixerVessel2D'
++ interFoam
+++ pwd
++ echo /work/job-write0.05s.5459488/mixerVessel2D/..
++ ls -l ..
++ ../bin/foamToVTK -ascii

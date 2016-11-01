@@ -1,0 +1,6 @@
+MixerVessel2D simulation
+ JOB START DATE            : 2016/11/01 14:13:58
+ JOB END DATE              : 2016/11/01 14:16:11
+ NODE NUM (REQUIRE)        : 1
+ CPU NUM (REQUIRE)         : 8
+

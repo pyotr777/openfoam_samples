@@ -1,0 +1,80 @@
+Job Information
+
+ JOB ID                    : 5459488
+ JOB NAME                  : job-write0.05s
+ JOB TYPE                  : BATCH
+ JOB MODEL                 : NM
+ RETRY NUM                 : 0
+ SUB JOB NUM               : -
+ USER                      : a03106
+ GROUP                     : ra000007
+ RESOURCE UNIT             : common
+ RESOURCE GROUP            : small
+ PRIORITY                  : 90
+ SHELL                     : /bin/bash
+ COMMENT                   : 
+ LAST STATE                : SOT
+ STATE                     : EXT
+ PRM DATE                  : 2016/10/29 15:48:59
+ EXIT CODE                 : 0
+ SIGNAL NO                 : 0
+ PJM CODE                  : 0
+ REASON                    : -
+ MAIL SEND FLAG            : ----
+ MAIL ADDRESS              : a03106
+ STEP DEPENDENCY EXP       : -
+ STEP EXITING WAIT MODE    : -
+ FILE MASK                 : 0022
+ STANDARD OUT FILE         : /volume1/home/ra000007/a03106/OpenFOAM/run/FoamCases/altered/job-write0.05s.o5459488
+ STANDARD ERR FILE         : /volume1/home/ra000007/a03106/OpenFOAM/run/FoamCases/altered/job-write0.05s.e5459488
+ INFORMATION FILE          : /volume1/home/ra000007/a03106/OpenFOAM/run/FoamCases/altered/job-write0.05s.i5459488
+ ACCEPT DATE               : 2016/10/29 15:38:58
+ QUEUED DATE               : 2016/10/29 15:38:58
+ EXIT DATE                 : 2016/10/29 15:49:50
+ LAST HOLD USER            : 
+ HOLD NUM                  : 0
+ HOLD TIME                 : 00:00:00 (0)
+ JOB START DATE            : 2016/10/29 15:40:31
+ JOB END DATE              : 2016/10/29 15:48:59
+ STAGE IN START DATE       : 2016/10/29 15:39:51
+ STAGE IN END DATE         : 2016/10/29 15:40:02
+ STAGE IN SIZE             : 1.3 GB (1253459 KB)
+ STAGE OUT START DATE      : 2016/10/29 15:49:36
+ STAGE OUT END DATE        : 2016/10/29 15:49:41
+ STAGE OUT SIZE            : 150.0 MB (149987912)
+ NODE NUM (REQUIRE)        : 1
+ CPU NUM (REQUIRE)         : 8
+ ELAPSE TIME (LIMIT)       : 00:30:00 (1800)
+ MEMORY SIZE (LIMIT)       : 14252.7 MiB (14945000000) <DEFAULT>
+ DISK SIZE (LIMIT)         : 14000.0 MB (14000000000) <DEFAULT>
+ CPU TIME (LIMIT)          : unlimited <DEFAULT>
+ PROC CPU LIMIT            : unlimited <DEFAULT>
+ PROC COREFILE LIMIT       : 0.0 MB (0) <DEFAULT>
+ PROC CREATE PROC LIMIT    : 1280 <DEFAULT>
+ PROC DATA LIMIT           : unlimited <DEFAULT>
+ PROC LOCKED MEMORY LIMIT  : unlimited <DEFAULT>
+ PROC MESSAGE QUEUE LIMIT  : unlimited <DEFAULT>
+ PROC OPEN FILES LIMIT     : 1024 <DEFAULT>
+ PROC PENDING SIGNAL LIMIT : unlimited <DEFAULT>
+ PROC PERMFILE LIMIT       : unlimited <DEFAULT>
+ PROC STACK LIMIT          : 14252.7 MiB (14945000000) <DEFAULT>
+ PROC VIRTUAL MEMORY LIMIT : unlimited <DEFAULT>
+ NODE NUM (ALLOC)          : 1:1x1x1
+ MEMORY SIZE (ALLOC)       : 14252.7 MiB (14945001472)
+ CPU NUM (ALLOC)           : 8
+ ELAPSE TIME (USE)         : 00:08:29 (509)
+ NODE NUM (UNUSED)         : 0
+ NODE NUM (USE)            : 1
+ NODE ID (USE)             : 0x04140034 
+ TOFU COORDINATE (USE)     : (21,1,16) 
+ MAX MEMORY SIZE (USE)     : 27.3 MiB (28532736)
+ CPU NUM (USE)             : 5
+ USER CPU TIME (USE)       : 354940 ms
+ SYSTEM CPU TIME (USE)     : 63340 ms
+ CPU TIME (TOTAL)          : 418280 ms
+ DISK SIZE (USE)           : -
+ I/O SIZE                  : 270.7 MB (270621587)
+ FILE I/O SIZE             : 270.5 MB (270455949)
+ EXEC INST NUM             : 0
+ EXEC SIMD NUM             : 4559663460
+

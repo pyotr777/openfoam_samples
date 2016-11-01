@@ -1,0 +1,144 @@
+Postscript J29155334941477976881_post.sh called with parameters: 
+sample/VTK/
+sample/VTK/sample_0.vtk
+sample/VTK/rotor/
+sample/VTK/rotor/rotor_0.vtk
+sample/VTK/rotor/rotor_46.vtk
+sample/VTK/rotor/rotor_83.vtk
+sample/VTK/rotor/rotor_116.vtk
+sample/VTK/rotor/rotor_147.vtk
+sample/VTK/rotor/rotor_177.vtk
+sample/VTK/rotor/rotor_207.vtk
+sample/VTK/rotor/rotor_237.vtk
+sample/VTK/rotor/rotor_263.vtk
+sample/VTK/rotor/rotor_287.vtk
+sample/VTK/rotor/rotor_309.vtk
+sample/VTK/rotor/rotor_330.vtk
+sample/VTK/rotor/rotor_351.vtk
+sample/VTK/rotor/rotor_369.vtk
+sample/VTK/rotor/rotor_387.vtk
+sample/VTK/rotor/rotor_405.vtk
+sample/VTK/rotor/rotor_423.vtk
+sample/VTK/rotor/rotor_442.vtk
+sample/VTK/rotor/rotor_461.vtk
+sample/VTK/rotor/rotor_480.vtk
+sample/VTK/rotor/rotor_498.vtk
+sample/VTK/stator/
+sample/VTK/stator/stator_0.vtk
+sample/VTK/stator/stator_46.vtk
+sample/VTK/stator/stator_83.vtk
+sample/VTK/stator/stator_116.vtk
+sample/VTK/stator/stator_147.vtk
+sample/VTK/stator/stator_177.vtk
+sample/VTK/stator/stator_207.vtk
+sample/VTK/stator/stator_237.vtk
+sample/VTK/stator/stator_263.vtk
+sample/VTK/stator/stator_287.vtk
+sample/VTK/stator/stator_309.vtk
+sample/VTK/stator/stator_330.vtk
+sample/VTK/stator/stator_351.vtk
+sample/VTK/stator/stator_369.vtk
+sample/VTK/stator/stator_387.vtk
+sample/VTK/stator/stator_405.vtk
+sample/VTK/stator/stator_423.vtk
+sample/VTK/stator/stator_442.vtk
+sample/VTK/stator/stator_461.vtk
+sample/VTK/stator/stator_480.vtk
+sample/VTK/stator/stator_498.vtk
+sample/VTK/front/
+sample/VTK/front/front_0.vtk
+sample/VTK/front/front_46.vtk
+sample/VTK/front/front_83.vtk
+sample/VTK/front/front_116.vtk
+sample/VTK/front/front_147.vtk
+sample/VTK/front/front_177.vtk
+sample/VTK/front/front_207.vtk
+sample/VTK/front/front_237.vtk
+sample/VTK/front/front_263.vtk
+sample/VTK/front/front_287.vtk
+sample/VTK/front/front_309.vtk
+sample/VTK/front/front_330.vtk
+sample/VTK/front/front_351.vtk
+sample/VTK/front/front_369.vtk
+sample/VTK/front/front_387.vtk
+sample/VTK/front/front_405.vtk
+sample/VTK/front/front_423.vtk
+sample/VTK/front/front_442.vtk
+sample/VTK/front/front_461.vtk
+sample/VTK/front/front_480.vtk
+sample/VTK/front/front_498.vtk
+sample/VTK/back/
+sample/VTK/back/back_0.vtk
+sample/VTK/back/back_46.vtk
+sample/VTK/back/back_83.vtk
+sample/VTK/back/back_116.vtk
+sample/VTK/back/back_147.vtk
+sample/VTK/back/back_177.vtk
+sample/VTK/back/back_207.vtk
+sample/VTK/back/back_237.vtk
+sample/VTK/back/back_263.vtk
+sample/VTK/back/back_287.vtk
+sample/VTK/back/back_309.vtk
+sample/VTK/back/back_330.vtk
+sample/VTK/back/back_351.vtk
+sample/VTK/back/back_369.vtk
+sample/VTK/back/back_387.vtk
+sample/VTK/back/back_405.vtk
+sample/VTK/back/back_423.vtk
+sample/VTK/back/back_442.vtk
+sample/VTK/back/back_461.vtk
+sample/VTK/back/back_480.vtk
+sample/VTK/back/back_498.vtk
+sample/VTK/sample_46.vtk
+sample/VTK/sample_83.vtk
+sample/VTK/sample_116.vtk
+sample/VTK/sample_147.vtk
+sample/VTK/sample_177.vtk
+sample/VTK/sample_207.vtk
+sample/VTK/sample_237.vtk
+sample/VTK/sample_263.vtk
+sample/VTK/sample_287.vtk
+sample/VTK/sample_309.vtk
+sample/VTK/sample_330.vtk
+sample/VTK/sample_351.vtk
+sample/VTK/sample_369.vtk
+sample/VTK/sample_387.vtk
+sample/VTK/sample_405.vtk
+sample/VTK/sample_423.vtk
+sample/VTK/sample_442.vtk
+sample/VTK/sample_461.vtk
+sample/VTK/sample_480.vtk
+sample/VTK/sample_498.vtk
+total 6736
+-rw-r--r--  1 a03106 ra000007    2303 Nov  1 14:08 J29155334941477976881.sh
+-rwxr-xr-x  1 a03106 ra000007     872 Nov  1 14:08 J29155334941477976881_post.sh
+-rwxr-xr-x  1 a03106 ra000007     104 Nov  1 14:08 J29155334941477976881_pre.sh
+-rw-r--r--  1 a03106 ra000007 6985078 Nov  1 14:16 VTK.tar.gz
+-rw-r--r--  1 a03106 ra000007    4730 Nov  1 14:15 job.e5464063
+-rw-r--r--  1 a03106 ra000007    3366 Nov  1 14:16 job.i5464063
+-rw-r--r--  1 a03106 ra000007   11652 Nov  1 14:16 job.o5464063
+-rw-r--r--  1 a03106 ra000007    3280 Nov  1 14:16 post.log
+-rw-r--r--  1 a03106 ra000007     812 Nov  1 14:08 pre.log
+-rwxr-xr-x  1 a03106 ra000007    2328 Nov  1 14:08 run_mixer_sample.sh
+drwxr-xr-x 26 a03106 ra000007    4096 Nov  1 14:16 sample
+Contacting image server at http://52.199.55.227:8080/files
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 6821k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 6821k    0     0  100 6821k      0  6573k  0:00:01  0:00:01 --:--:-- 6655k100 6821k    0     0  100 6821k      0  3344k  0:00:02  0:00:02 --:--:-- 3365k100 6821k    0     0  100 6821k      0  2243k  0:00:03  0:00:03 --:--:-- 2252k100 6821k    0     0  100 6821k      0  1687k  0:00:04  0:00:04 --:--:-- 1692k100 6821k    0     0  100 6821k      0  1352k  0:00:05  0:00:05 --:--:-- 1355k100 6821k    0     0  100 6821k      0  1128k  0:00:06  0:00:06 --:--:--     0100 6821k    0     0  100 6821k      0   967k  0:00:07  0:00:07 --:--:--     0100 6821k    0     0  100 6821k      0   847k  0:00:08  0:00:08 --:--:--     0100 6821k    0     0  100 6821k      0   774k  0:00:08  0:00:08 --:--:--     0100 7059k  100  238k  100 6821k  27578   770k  0:00:08  0:00:08 --:--:--     0
+total 52
+-rw-r--r--  1 a03106 ra000007   2303 Nov  1 14:08 J29155334941477976881.sh
+-rwxr-xr-x  1 a03106 ra000007    872 Nov  1 14:08 J29155334941477976881_post.sh
+-rwxr-xr-x  1 a03106 ra000007    104 Nov  1 14:08 J29155334941477976881_pre.sh
+-rw-r--r--  1 a03106 ra000007   4730 Nov  1 14:15 job.e5464063
+-rw-r--r--  1 a03106 ra000007   3366 Nov  1 14:16 job.i5464063
+-rw-r--r--  1 a03106 ra000007  11652 Nov  1 14:16 job.o5464063
+-rw-r--r--  1 a03106 ra000007 244081 Nov  1 14:16 movie.mp4
+-rw-r--r--  1 a03106 ra000007   5117 Nov  1 14:16 post.log
+-rw-r--r--  1 a03106 ra000007    812 Nov  1 14:08 pre.log
+-rwxr-xr-x  1 a03106 ra000007   2328 Nov  1 14:08 run_mixer_sample.sh
+drwxr-xr-x 26 a03106 ra000007   4096 Nov  1 14:16 sample
+Sending mail
+send-mail: warning: inet_protocols: IPv6 support is disabled: Address family not supported by protocol
+send-mail: warning: inet_protocols: configuring for IPv4 support only
+postdrop: warning: inet_protocols: IPv6 support is disabled: Address family not supported by protocol
+postdrop: warning: inet_protocols: configuring for IPv4 support only
